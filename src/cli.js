@@ -177,7 +177,7 @@ async function signTx() {
 
         let tx1 = encode(tx)
         console.log("Review and Confirm Transaction in Ledger Device")
-        let result = await eth.signTransaction(`44'/550'/0/0/${txObject.index}`, tx1)
+        let result = await eth.signTransaction(`44'/550'/0/0/${txObject.index}`, tx1.toString("hex"))
 
         tx[6] = Buffer.from(result.v, "hex");
         tx[7] = Buffer.from(result.r, "hex");

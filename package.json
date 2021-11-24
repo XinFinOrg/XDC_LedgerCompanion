@@ -2,7 +2,7 @@
   "name": "@xinfin/js-companion",
   "version": "1.0.0",
   "description": "A CLI Application",
-  "main": "index.js",
+  "main": "src/cli.js",
   "bin": {
     "@xinfin/js-companion": "bin/js-copanion",
     "js-companion": "bin/js-companion"
