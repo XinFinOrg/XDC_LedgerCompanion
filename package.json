@@ -4,8 +4,8 @@
   "description": "A CLI Application",
   "main": "src/cli.js",
   "bin": {
-    "@xinfin/js-companion": "bin/js-copanion",
-    "js-companion": "bin/js-companion"
+    "@xinfin/xdc-companion": "bin/xdc-copanion",
+    "xdc-companion": "bin/xdc-companion"
   },
   "publishConfig": {
     "access": "public"
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "cli",
-    "js-companion"
+    "xdc-companion"
   ],
   "author": "",
   "license": "ISC",

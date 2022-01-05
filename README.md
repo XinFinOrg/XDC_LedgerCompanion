@@ -6,4 +6,4 @@ Steps to develop locally :
 2. Run npm install
 3. Run npm link
 
-Run js-companion --help for help.
+Run xdc-companion --help for help.
