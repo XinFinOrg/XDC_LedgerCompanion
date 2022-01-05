@@ -6,7 +6,7 @@ import Web3 from 'web3';
 import {encode} from 'rlp';
 import {sha256} from 'js-sha256';
 
-const web3 = new Web3("https://rpc.apothem.network");
+const web3 = new Web3("https://rpc.xinfin.network");
 
 function parseArgumentIntoOption(rawArgs) {
     const args = arg(
