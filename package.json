@@ -1,5 +1,5 @@
 {
-  "name": "@xinfin/js-companion",
+  "name": "@xinfin/xdc-companion",
   "version": "1.0.0",
   "description": "A CLI Application",
   "main": "src/cli.js",
